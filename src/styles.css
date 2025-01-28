@@ -86,3 +86,53 @@ p {
 .email-link:hover {
   color: black;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .navigation-links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navigation-links a {
+    margin: 10px;
+  }
+
+  .primary-link {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .secondary-link {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+
+  img {
+    display: none;
+  }
+}

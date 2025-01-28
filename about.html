@@ -9,13 +9,104 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Charllotte Blackwell-Maleshkov's portfolio template - about section" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css" />
-  <title>About Charllotte B.M.</title>
+
+  <title>About Charllotte Blackwell-Maleshkov</title>
+  <style>
+    :root {
+      --primary-color: #c0adfc;
+      --secondary-color: #f5f2fe;
+      --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    body {
+      margin-top: 100px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 70px;
+    }
+
+    h2 {
+      font-size: 45px;
+    }
+
+    h3 {
+      font-size: 24px;
+      opacity: 0.7;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    .navigation-links {
+      display: flex;
+      margin-top: 40px;
+      justify-content: center;
+    }
+
+    .navigation-links a {
+      margin: 20px;
+    }
+
+    .primary-link {
+      border-radius: 4px;
+      padding: 20px 15px;
+      text-decoration: none;
+      text-transform: capitalize;
+      background: var(--primary-color);
+      box-shadow: var(--box-shadow);
+      color: white;
+    }
+
+    .secondary-link {
+      border-radius: 4px;
+      padding: 20px 15px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: var(--primary-color);
+      border: 1px solid var(--primary-color);
+    }
+
+    .homepage-link {
+      color: var(--primary-color);
+      text-align: center;
+      display: block;
+    }
+
+    .paragraph {
+      margin: 30px 0;
+    }
+
+    .paragraph p {
+      margin: 10px;
+    }
+
+    .email-link {
+      display: flex;
+      justify-content: center;
+      color: var(--primary-color);
+      font-size: 28px;
+      text-decoration: none;
+    }
+
+    .email-link:hover {
+      color: black;
+    }
+  </style>
 </head>
 
 <body>
@@ -54,21 +145,23 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        <img src="media/yoga.png" class="img-fluid p-2 shadow rounded" />
+        <img src="media/yoga.png" class="img-fluid p-2 shadow rounded" alt="about yoga snippet" />
       </div>
       <div class="col-sm-4">
-        <img src="media/weather.png" class="img-fluid p-2 shadow rounded" />
+        <img src="media/weather.png" class="img-fluid p-2 shadow rounded" alt="about yoga snippet" />
       </div>
       <div class="col-sm-4">
-        <img src="media/yogurt.png" class="img-fluid p-2 shadow rounded" />
+        <img src="media/yogurt.png" class="img-fluid p-2 shadow rounded" alt="about yoga snippet" />
       </div>
     </div>
   </div>
   <div id="contact" class="mt-5">
     <h2 class="text-center">📨 Contact me</h2>
-    <a href="mailto:testing@gmail.com" class="email-link">Click here to email me 😊</a>
+    <a href="mailto:testing@gmail.com" class="email-link" title="Email me">Click here to email me 😊</a>
   </div>
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <br />
+  <br />
 </body>
 
 </html>
